@@ -15,13 +15,13 @@ class HomePage extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               SizedBox(
-                height: 200,
+                height: 150,
                 child: ListView.builder(
                   itemCount: 10,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) => Container(
-                    height: 100,
-                    width: 100,
+                    height: 150,
+                    width: 150,
                     margin: EdgeInsets.all(10),
                     child: Center(
                       child: Text("Card $index"),
