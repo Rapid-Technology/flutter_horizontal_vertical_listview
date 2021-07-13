@@ -1,4 +1,4 @@
-# flutter_h_v_listview
+# Flutter Horizontal & Vertical ListView
 
 A new Flutter application.
 
