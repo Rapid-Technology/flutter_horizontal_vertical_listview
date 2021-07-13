@@ -24,7 +24,10 @@ class HomePage extends StatelessWidget {
                     width: 150,
                     margin: EdgeInsets.all(10),
                     child: Center(
-                      child: Text("Card $index"),
+                      child: Text(
+                        "Card $index",
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                     color: Colors.green[700],
                   ),
